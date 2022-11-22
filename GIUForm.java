@@ -11,29 +11,32 @@ import java.util.Calendar;
 
 
 public class GIUForm extends JFrame implements ActionListener{
-    JLabel L1 = new JLabel("Enter your name:   ");
+    JLabel L1 = new JLabel("Enter your name:"    );
     JLabel L2 = new JLabel("Enter your surname:  ");
-    JLabel L3 = new JLabel("Enter your age:  ");
+    JLabel L3 = new JLabel("Enter your age:     ");
 
-    JTextField T1 = new JTextField(20);
-    JTextField T2 = new JTextField(20);
-    JTextField T3 = new JTextField(20);
+    JTextField T1 = new JTextField(25);
+    JTextField T2 = new JTextField(25);
+    JTextField T3 = new JTextField(25);
 
     JButton B1 = new JButton("Submit");
     JButton B2 = new JButton("Clear");
 
     GIUForm(String Title){
         setTitle(Title);
-        setSize(500,400);
+        setSize(500,160);
         setLayout(new FlowLayout());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         add(L1);
         add(T1);
+
         add(L2);
         add(T2);
+
         add(L3);
         add(T3);
+
         add(B1);
         add(B2);
 
@@ -56,7 +59,7 @@ public class GIUForm extends JFrame implements ActionListener{
                 age = Integer.parseInt(T3.getText());
                 yearborn = currentYear - age;
 
-                JOptionPane.showMessageDialog(null,"Hello "+ name +" "+ surname +", it seesm that yoy were born in "+ yearborn);
+                JOptionPane.showMessageDialog(null,"Hello "+ name +" "+ surname +", it seesm that you were born in "+ yearborn);
             }
             catch(Exception ex){
                 JOptionPane.showMessageDialog(null,"You shoould enter a number for the name field","ERROR",JOptionPane.ERROR_MESSAGE);
