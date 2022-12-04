@@ -110,3 +110,18 @@ public class Main{
        }
 }*/
 
+/*public class Main {
+
+public static void main (String [] args){
+
+MyFrame  F1 = new MyFrame("My new Frame");
+}
+}*/
+
+/*public class Main {
+
+    public static void main (String [] args){
+    
+    MyFrame2  F1 = new MyFrame2("My new Frame");
+    }
+    }*/
