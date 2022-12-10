@@ -116,7 +116,7 @@ public static void main (String [] args){
 
 MyFrame  F1 = new MyFrame("My new Frame");
 }
-}*/
+} */
 
 /*public class Main {
 
@@ -125,3 +125,18 @@ MyFrame  F1 = new MyFrame("My new Frame");
     MyFrame2  F1 = new MyFrame2("My new Frame");
     }
     }*/
+    /*public class Main {
+
+        public static void main (String [] args){
+        
+        MyFrame3  F1 = new MyFrame3();
+        }
+    }*/
+    public class Main {
+
+        public static void main (String [] args){
+        
+        CompBox F1 = new CompBox();
+        
+        }
+    }
