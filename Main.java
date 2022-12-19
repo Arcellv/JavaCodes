@@ -132,11 +132,11 @@ MyFrame  F1 = new MyFrame("My new Frame");
         MyFrame3  F1 = new MyFrame3();
         }
     }*/
-    public class Main {
+    /*public class Main {
 
         public static void main (String [] args){
         
         CompBox F1 = new CompBox();
-        
+
         }
-    }
+    }*/
