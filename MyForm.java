@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.plaf.DimensionUIResource;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -25,7 +24,7 @@ public class MyForm extends JFrame implements ActionListener
         T1 = new JTextField(10);
         T1.setFont(new Font("verdana", Font.BOLD,28));
         T1.setEditable(false);
-        T1.setPreferredSize(new DimensionUIResource(100,50));
+        T1.setPreferredSize(new Dimension(100,50));
         P1.add(T2);
         add(P1,"North");
 
