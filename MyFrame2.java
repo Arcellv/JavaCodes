@@ -42,4 +42,8 @@ public class MyFrame2 extends JFrame implements ActionListener
         else if (cg.isSelected()){getContentPane().setBackground(Color.GREEN);}
     }
     
+    public static void main(String[] args)
+    {
+        new MyFrame2(null);
+    }
 }
