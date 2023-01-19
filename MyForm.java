@@ -8,7 +8,7 @@ public class MyForm extends JFrame implements ActionListener
     
     JButton cars, vans, reset;
     JTextField T1, T2;
-    JPanel P1, P2;
+    JPanel P1,P2;
 
     public MyForm(String Title)
     {

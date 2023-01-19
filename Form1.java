@@ -39,11 +39,6 @@ public class Form1 extends JFrame implements ActionListener
         add(B2);
         setVisible(true);
     }
-
-    public static void main(String[] args)
-    {
-        Form1 f1 = new Form1();
-    }
     
     public void actionPerformed(ActionEvent e)
     {

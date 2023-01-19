@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.JPopupMenu.Separator;
 
 public class Hello extends JFrame implements ActionListener 
 {
@@ -62,7 +61,7 @@ public class Hello extends JFrame implements ActionListener
 
     public static void main(String[] args)
     {
-        Hello h1 = new Hello("Menu-Bars");
+        new Hello("Menu-Bars");
     }
 
     public void actionPerformed(ActionEvent e)

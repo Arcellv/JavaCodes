@@ -43,3 +43,21 @@ public class Point {
         System.out.println("The number of point until now is: " + count);
     }
 }
+
+/*public static void main(String[] args){             
+Point p1 = new Point();
+p1.Display();
+
+Point p2 = new Point(5,10);
+p2.Display();
+
+Point p3 = new Point(10);
+p3.Display();
+p1.Change(2, 4);
+
+System.out.println("Distance from origin is: " + p1.distance_from_origin());
+System.out.println("Distance is: " + p1.Distance(p2));
+p3.Location();
+p1.Number_of_objects();
+p2.Number_of_objects();
+}*/

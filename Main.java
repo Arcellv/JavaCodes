@@ -3,28 +3,6 @@ import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 import java.util.Date;
 
-public class Main{
-    /*public static void main(String[] args){
-        GIUForm g1 = new GIUForm("FORM");
-        g1.setVisible(true);
-    }*/
-/*public static void main(String[] args){             
-Point p1 = new Point();
-p1.Display();
-
-Point p2 = new Point(5,10);
-p2.Display();
-
-Point p3 = new Point(10);
-p3.Display();
-p1.Change(2, 4);
-
-System.out.println("Distance from origin is: " + p1.distance_from_origin());
-System.out.println("Distance is: " + p1.Distance(p2));
-p3.Location();
-p1.Number_of_objects();
-p2.Number_of_objects();
-}*/
 /*public static void main (String [] args)
 {
     Grade G1=new Grade();
@@ -108,35 +86,4 @@ public static void main (String [] args)
     else
         return;
    }
-}*/
-
-/*public class Main {
-
-public static void main (String [] args){
-
-MyFrame  F1 = new MyFrame("My new Frame");
-}
-} */
-
-/*public class Main {
-
-    public static void main (String [] args){
-    
-    MyFrame2  F1 = new MyFrame2("My new Frame");
-    }
-    }*/
-/*public class Main {
-
-    public static void main (String [] args){
-    
-    MyFrame3  F1 = new MyFrame3();
-    }
-}*/
-/*public class Main {
-
-    public static void main (String [] args){
-    
-    CompBox F1 = new CompBox();
-
-    }
 }*/

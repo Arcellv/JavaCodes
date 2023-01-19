@@ -24,12 +24,12 @@ public class Form11 extends JFrame implements ActionListener
 
     public static void main(String[] args)
     {
-        Form11 f1 = new Form11();
+        new Form11();
     }
 
     public void actionPerformed(ActionEvent e)
     {
-        if(e.getSource() == B1){Form22 f2 = new Form22();}
+        if(e.getSource() == B1){}
         else if(e.getSource() == B2){dispose();}
     }
 }

@@ -10,7 +10,8 @@ import javax.swing.JTextArea;
 public class CompBox extends JFrame implements ActionListener
 {
     private JTextArea T;
-    private JComboBox B1, B2;
+    private JComboBox<String> B1, B2;
+    
     
     public CompBox()
     {
@@ -19,8 +20,9 @@ public class CompBox extends JFrame implements ActionListener
         setLayout(new FlowLayout());
 
         T = new JTextArea(10,30);
-        B1 = new JComboBox();
-        B2 = new JComboBox();
+        B1 = new JComboBox<>();
+        B2 = new JComboBox<>();
+
         B1.addItem("Choose Back Color:");
         B1.addItem("Green");
         B1.addItem("Yellow");
