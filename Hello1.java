@@ -4,7 +4,7 @@ public class Hello1
 {
     public static void main(String[] args) {
         Owner owner1 = new Owner("Jack");
-        Dog d1 = new Dog("Max", "Golden", 5);
+        Dog d1 = new Dog("Max", "Golden Retriever", 5);
         d1.setOwner(owner1);
         d1.adoptionCompleted();
         d1.eat("Dog biscuits");

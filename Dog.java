@@ -18,7 +18,7 @@ public class Dog extends Pet
     }
 
     public void adoptionCompleted() {
-        JOptionPane.showMessageDialog(null, name + "is adopted by " + getOwnerName());
+        JOptionPane.showMessageDialog(null, name + "is a " + breed + " and " + age + " year old. "+ name + " is adopted by " + getOwnerName());
     }
 
     public void move(String from, String to) {
