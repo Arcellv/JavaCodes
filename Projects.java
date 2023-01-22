@@ -105,11 +105,11 @@ public class Projects {
         F2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         F2.setLocationRelativeTo(null);
 
-        JLabel b = new JLabel("Brand");
-        b.setBounds(25, 10, 80, 20);
-        b.setHorizontalAlignment(JLabel.LEFT);
-        b.setVerticalAlignment(JLabel.TOP);
-        F2.add(b);
+        JLabel lb = new JLabel("Brand");
+        lb.setBounds(25, 10, 80, 20);
+        lb.setHorizontalAlignment(JLabel.LEFT);
+        lb.setVerticalAlignment(JLabel.TOP);
+        F2.add(lb);
 
         JTextField tb = new JTextField(20);
         tb.setBounds(14, 30, 70, 20);
@@ -185,7 +185,7 @@ public class Projects {
         b4.setVerticalAlignment(JLabel.CENTER);
         F2.add(b4);
 
-
+        //Add car inforation to the File 
         b1.addActionListener(actionEvent ->
         {
 
