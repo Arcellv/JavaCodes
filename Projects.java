@@ -218,7 +218,7 @@ public class Projects {
                 File myFile = new File("Car_File.txt");
                 try (FileWriter myWriter = new FileWriter(myFile, true))
                 {
-                    myWriter.write(String.format("%-20s%-15s%-15s%-10s%-15s%-15s", Brand, GearBox, Model, Year, MaxSpeed, Color)+"\n");
+                    myWriter.write(String.format("%-20s%-15s%-15s%-10s%-15s%-15s", Brand, GearBox, Model, Year, MaxSpeed, Color)+" \n");
                     JOptionPane.showMessageDialog(null, "Car information saved successfully !!!");
                 }
                 catch (Exception e)
